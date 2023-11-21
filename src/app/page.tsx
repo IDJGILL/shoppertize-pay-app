@@ -36,8 +36,8 @@ export default function Home() {
 
         <div>
           <h2 className="mb-4 max-w-2xl text-2xl font-semibold md:text-3xl">
-            Apple 13 inch, M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural
-            Engine
+            Apple MacBook Air 13 inch, M2 chip with 8‑core CPU, 8‑core GPU,
+            16‑core Neural Engine
           </h2>
 
           <ul className="mb-8 space-y-2 text-slate-600">
