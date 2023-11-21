@@ -20,7 +20,7 @@ export default function ProductPage() {
         <div className="container flex h-12 items-center justify-between">
           <BrandLogo />
 
-          <div className="font-semibold">Payable: ₹1,21,900</div>
+          <div className="font-semibold">Payable: ₹121,500</div>
         </div>
       </header>
 

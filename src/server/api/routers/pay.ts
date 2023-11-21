@@ -1,6 +1,8 @@
 import { randomUUID } from "crypto";
 import getPhonePeSHA256Payload from "./getPhonePeSHA256Payload";
 
+// http://localhost:3000/paylink/apple-macbook-air-m2/genefied
+
 export const pay = async () => {
   const merchantTransactionId = randomUUID();
 
@@ -9,7 +11,7 @@ export const pay = async () => {
   const payload = getPhonePeSHA256Payload({
     merchantTransactionId: merchantTransactionId,
     merchantUserId: merchantUserId,
-    amount: 12190000,
+    amount: 12150000,
     redirectUrl: `https://www.shoppertize.in/success`,
     redirectMode: "GET",
     callbackUrl: "https://www.shoppertize.in/",
