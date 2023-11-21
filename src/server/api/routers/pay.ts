@@ -9,7 +9,7 @@ export const pay = async () => {
   const payload = getPhonePeSHA256Payload({
     merchantTransactionId: merchantTransactionId,
     merchantUserId: merchantUserId,
-    amount: 100,
+    amount: 12190000,
     redirectUrl: `https://www.shoppertize.in/success`,
     redirectMode: "GET",
     callbackUrl: "https://www.shoppertize.in/",
